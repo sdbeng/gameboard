@@ -19,3 +19,12 @@ body {
     height: 30px;
     border: solid white 0.5px;
 }
+
+/* another way: give it these classes */
+.even {
+    background-color: #E1b894;
+}
+
+.odd {
+    background-color: #E9E287;
+}
