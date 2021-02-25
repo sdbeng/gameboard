@@ -12,6 +12,13 @@ for(let i=0; i<squares.length; i++){
     //ask, if the current index is even paint it black
     //otherwise, leave it as is
     if(i % 2 === 0){
-        squares[i].style.background = 'black'
+        //one way - set the bg directly
+        squares[i].style.background = 'black'        
+    }
+    //or another way - add class
+    if(i % 2 === 0){
+        squares[i].classList.add('even')
+    }else{
+        squares[i].classList.add('odd')
     }
 }
